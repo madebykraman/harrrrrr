@@ -1,0 +1,95 @@
+/* Global Styles */
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    background: #222;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Hero Section */
+#hero {
+    height: 100vh;
+    background: url('assets/images/hero-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* About Section */
+#about {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+/* Services Section */
+#services {
+    padding: 60px 20px;
+    background: #f7f7f7;
+    text-align: center;
+}
+.service-item {
+    margin-bottom: 20px;
+}
+
+/* Portfolio Section */
+#portfolio {
+    padding: 60px 20px;
+    background: #fff;
+}
+.portfolio-grid {
+    display: flex;
+    gap: 20px;
+}
+.portfolio-item {
+    flex: 1;
+    text-align: center;
+}
+
+/* Testimonials Section */
+#testimonials {
+    padding: 60px 20px;
+    background: #222;
+    color: #fff;
+}
+.testimonial-item {
+    text-align: center;
+}
+
+/* Contact Section */
+#contact {
+    padding: 60px 20px;
+    text-align: center;
+    background: #f7f7f7;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
